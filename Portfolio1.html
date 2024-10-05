@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nipun Tarika | Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background.png');
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+            /* Smooth scrolling */
+        }
+
+        /* Navigation Bar */
+        nav {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background-color: rgba(0, 0, 36, 0.9);
+            padding: 10px;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: inline-flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 10px 15px;
+            border: 1px solid white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 80px 20px 20px;
+            /* Added padding to account for fixed navbar */
+            background-color: rgba(0, 0, 36, 0.8);
+            /* Semi-transparent background for better readability */
+            border-radius: 10px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header h2 {
+            font-size: 2rem;
+            font-weight: bold; /* Bold styling for Nipun Tarika */
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: rgb(31, 74, 100);
+            text-decoration: none;
+            border-radius: 5px;
+            border: 1px solid white;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: rgb(18, 18, 63);
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            background-color: rgb(18, 18, 63);
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2rem;
+            border-radius: 5px;
+        }
+
+        .content {
+            background-color: rgba(31, 74, 100, 0.9);
+            /* Slight transparency */
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 40px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#profile-summary">Profile Summary</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Nipun's Portfolio</h1>
+            <h2>Nipun Tarika</h2> <!-- Adjusted for styling -->
+            <p>Email: <a href="mailto:tarika.nipun@gmail.com">tarika.nipun@gmail.com</a></p>
+            <p>Phone: 7817971911 | <a href="https://linkedin.com/in/nipun-tarika" target="_blank">LinkedIn: Nipun Tarika</a> | <a href="https://github.com/nipuntarika008" target="_blank">Github: Nipun Tarika</a></p>
+
+            <!-- Download Resume Button -->
+            <a href="Resume.docs" class="download-btn" download>Download Resume</a>
+        </header>
+
+        <section id="profile-summary">
+            <h2>Profile Summary</h2>
+            <div class="content">
+                <p>A dedicated and enthusiastic Bachelor of Computer Applications (BCA) student specializing in Data
+                    Science at SRM Institute of Science and Technology, with a solid CGPA of 7/10, expected to graduate
+                    in May 2026. Possesses a robust foundation in Python programming, with additional expertise in Data
+                    Structures, DBMS, Distributed Systems, and Machine Learning.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="content">
+                <p><strong>BCA (Data Science)</strong>, SRM Institute of Science and Technology<br> CGPA: 7/10<br> 2023
+                    – 2026</p>
+                <p>Coursework: Data Structures, DBMS, Distributed Systems, Machine Learning, Python</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="content">
+                <ul>
+                    <li><strong>Programming:</strong> Java, Python, C</li>
+                    <li><strong>Web Technologies:</strong> HTML, CSS</li>
+                    <li><strong>Databases & Cloud:</strong> MySQL, Mongo DB, Oracle SQL</li>
+                    <li><strong>Tools & Frameworks:</strong> IntelliJ IDEA, VS Code, Oracle SQL Server</li>
+                    <li><strong>Languages Known:</strong> French (Spoken & Written), English (Spoken & Written)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="content">
+                <h3>National Service Scheme (NSS) Volunteer</h3>
+                <ul>
+                    <li>7-Day Camp Activities: Taught students at local Anganwadi centers, organized a rally, performed
+                        a Nukkad Natak, and led a plantation drive.</li>
+                    <li>1-Day Workshop on "10 Days to Vegan": Learned about adopting a vegan lifestyle.</li>
+                    <li>Webinar on "Food Planet Health": Explored the impact of dietary choices on global health and
+                        sustainability.</li>
+                </ul>
+
+                <h3>Skill India</h3>
+                <p>Active Member of Skill India: Gained technical skills and practical training through various Skill
+                    India programs.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyright © nipunportfolio.com | All rights reserved</p>
+        </footer>
+    </div>
+</body>
+
+</html>
